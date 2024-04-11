@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0 0 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: max-content;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block {
+    position: relative;
+    border: red solid 2px;
+    height: 50vh;
+    margin: 0;
+    padding: 10px;
+    width: 49%;
+    text-align: start;
+    float: left;
+    box-sizing: border-box;
+    min-width: 300px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+li {
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li:nth-child(2n+1) {
+    color: red;
+}
+
+span {
+    position: absolute;
+    left: 5px;
+    border-radius: 50%;
+    border: 2px red solid;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
